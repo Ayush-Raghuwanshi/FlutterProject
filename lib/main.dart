@@ -310,7 +310,7 @@ class _SecondPage extends State<Secondpage>{
                 icon: Icon(Icons.arrow_back,size: 30,),
                 color: Colors.black,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => BottomBar()));
+                  Navigator.pop(context);
                 },
               );
             }),
@@ -461,7 +461,7 @@ class _SecondPage extends State<Secondpage>{
       onTap: (index){
         switch(index){
           case 0:
-            Navigator.push(context, MaterialPageRoute(builder: (context) =>  BottomBar()));
+            Navigator.Navigator.pop(context);
             break;
           case 1:
             
