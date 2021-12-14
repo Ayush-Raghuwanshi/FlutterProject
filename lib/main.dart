@@ -133,7 +133,7 @@ class _BottomBarState extends State<BottomBar>{
           style: TextStyle(fontSize: 30, fontWeight: FontWeight. bold),)),),
           IconButton(onPressed: (){
             
-            Navigator.pop(context);
+            Navigator.push(context, MaterialPageRoute(builder: (context) => Secondpage()));
           }
           , icon: Icon(Icons.arrow_forward),color: Colors.black,padding: const EdgeInsets.only(top: 25),),
           ])
