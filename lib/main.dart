@@ -461,7 +461,7 @@ class _SecondPage extends State<Secondpage>{
       onTap: (index){
         switch(index){
           case 0:
-            Navigator.Navigator.pop(context);
+            Navigator.pop(context);
             break;
           case 1:
             
